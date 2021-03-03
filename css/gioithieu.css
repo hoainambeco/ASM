@@ -1,0 +1,190 @@
+h1{
+    color: rgba(255, 255, 255, 0.664);
+    font-variant: small-caps; 
+    font-size: 40Px; 
+    text-shadow: 0 0 5px rgb(255, 0, 0);
+    word-spacing:2px;
+    letter-spacing:1px;
+    line-height:25px;
+    text-align: center;
+}
+
+b{
+    color: rgb(255, 0, 0);
+    margin-left: 20px;
+}
+em{
+    color: blue;
+    font-style: italic;
+    font-size: 30px;
+    font-variant: small-caps;
+    word-spacing:2px;
+    letter-spacing:1px;
+    line-height:25px;
+}
+
+body{
+    background-color: rgba(163, 197, 211, 0.452);
+    background-size: 100% 100%;
+    padding: 0px;
+    width: 1800px;
+    margin: 50px;
+    margin-top: 0;
+}
+/* menu*/
+a{
+    text-decoration: none;
+    color: rgba(211, 0, 0, 0.863);
+
+}
+a:hover{
+    color:rgb(101, 16, 238);
+    text-decoration: underline;
+} /*chỉ chuột vào*/
+a:visited{color: rgb(134, 21, 209); 
+    text-decoration: underline;
+} /*kích chuột vào*/
+a:active{
+    color: #ce266c;
+}
+a:link{
+    color: rgb(32, 0, 119);
+}
+.box{
+    margin-top: -40px;
+    float: right;
+}
+footer{
+    float: inline-end;
+    border-top:5px double orangered;
+    line-height:50px;
+    background-color:lightcyan;
+    text-align:center;
+    font-variant:small-caps;
+    clear:both;
+} 
+.banner{
+    text-align: center;
+    width: 100%;
+}
+nav{
+  text-align: left;
+  margin: 10px;
+}
+nav a{
+  margin: 10px;
+  text-decoration: none;
+  font-size: 30px;
+
+}
+nav a img{
+  float: left;
+  margin-top: 10px;
+}
+nav a{
+  text-decoration: none;
+  color: rgba(211, 0, 0, 0.863);
+}
+nav a:hover{
+  color:rgb(16, 20, 238);
+  text-decoration: underline;
+  font-size: 35px;
+} /*chỉ chuột vào*/
+nav a:visited{color: rgb(134, 21, 209); 
+  text-decoration: underline;
+} /*kích chuột vào*/
+nav a:active{
+  color: #ce266c;
+}
+nav div.box{
+  float: right;
+}
+.boxday{
+  width: 1800px; 
+  height: 30px; 
+  background-color: rgb(255, 255, 255);
+}
+.boxday .day{
+  float: left; 
+  padding: 5px 0px; 
+  width: 200px;
+}
+.boxday .text marquee{
+  width: 1600px; 
+  height: 30px; 
+  font-size: 25px;
+}
+/*menu trái*/
+ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 190px;
+  background-color: #d4bdbd;
+  position: absolute;
+  height: 1442px;
+  overflow: auto;
+}
+
+ul.sidenav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+ 
+ul.sidenav li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: auto;
+  width: 1330px;
+  float: left;
+  text-align: left;
+}
+p{
+  text-align: left;
+  margin-left: 10px;
+}
+@media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  div.content {
+    width: 100%;
+    margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
+  }
+}
+div.phai{
+  margin-left:0;
+  padding: 1px 16px;
+  width: 304px;
+  float: right;
+}
+.tho{
+  float: right;
+  text-align: center;
+}

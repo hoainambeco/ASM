@@ -1,0 +1,152 @@
+body{
+    background-color: rgba(163, 197, 211, 0.452);
+    background-size: 100% 100%;
+    padding: 0px;
+    width: 1800px;
+    margin: 50px;
+    margin-top: 0;
+}
+header img{
+    width: 100%;
+}
+
+
+nav{
+    text-align: left;
+    margin: 10px;
+}
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+nav a img{
+    float: left;
+    margin-top: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(211, 0, 0, 0.863);
+}
+nav a:hover{
+    color:rgb(16, 20, 238);
+    text-decoration: underline;
+    font-size: 35px;
+} /*chỉ chuột vào*/
+nav a:visited{color: rgb(134, 21, 209); 
+    text-decoration: underline;
+} /*kích chuột vào*/
+nav a:active{
+    color: #ce266c;
+}
+nav div.box{
+    float: right;
+}
+.boxday{
+    width: 1800px; 
+    height: 30px; 
+    background-color: rgb(255, 255, 255);
+}
+.boxday .day{
+    float: left; 
+    padding: 5px 0px; 
+    width: 200px;
+}
+.boxday .text marquee{
+    width: 1600px; 
+    height: 30px; 
+    font-size: 25px;
+}
+/*menu trái*/
+article{
+    float: left;
+}
+article ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: auto;
+    background-color: #d4bdbd;
+    min-height: 1050px;
+    position: absolute;
+}
+  
+article ul.sidenav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+   
+article ul.sidenav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+  
+article ul.sidenav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+  /*****************/
+
+
+div aside{
+float: left;
+margin-left: 200px;
+}
+.cha{
+    position: relative;
+}
+.cha img{
+    width: 100%;
+    height: 900px;
+}
+.con{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    display: none;
+}
+.cha:hover .con{
+    display: block;
+}
+.nd1{
+    text-align: justify;
+    width: 100%;
+    height: 50%;
+    margin: 10px;
+    float: left;
+}
+section{
+    margin: 0px;
+}
+h2{
+    margin: 5px;
+}
+.nd2{
+    text-align: justify ;
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.nd3{
+    text-align: justify ;
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+b{
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+footer{
+    float: inline-end;
+    border-top:5px double orangered;
+    line-height:50px;
+    background-color:lightcyan;
+    text-align:center;
+    font-variant:small-caps;
+    clear:both;
+} 

@@ -1,0 +1,370 @@
+
+body{
+    background-color: rgba(163, 197, 211, 0.452);
+    background-size: 100% 100%;
+    padding: 0px;
+    width: 1800px;
+    margin: 50px;
+    margin-top: 0;
+}
+header img{
+    width: 100%;
+}
+
+
+nav{
+    text-align: left;
+    margin: 10px;
+}
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 30px;
+
+}
+nav a img{
+    float: left;
+    margin-top: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(211, 0, 0, 0.863);
+}
+nav a:hover{
+    color:rgb(16, 20, 238);
+    text-decoration: underline;
+    font-size: 35px;
+} /*chỉ chuột vào*/
+nav a:visited{color: rgb(134, 21, 209); 
+    text-decoration: underline;
+} /*kích chuột vào*/
+nav a:active{
+    color: #ce266c;
+}
+nav div.box{
+    float: right;
+}
+.boxday{
+    width: 1800px; 
+    height: 30px; 
+    background-color: rgb(255, 255, 255);
+}
+.boxday .day{
+    float: left; 
+    padding: 5px 0px; 
+    width: 200px;
+}
+.boxday .text marquee{
+    width: 1600px; 
+    height: 30px; 
+    font-size: 25px;
+}
+.phai{
+    width: 600px;
+    float: right;
+}
+.container aside {
+    flex-basis: 30%;
+  }
+.trai{
+  width: 200px;
+  float: left;
+}
+aside a {
+    color: #333;
+    font-size: 12px;
+  }
+article a:hover {
+    color: orangered;
+    text-decoration: underline;
+  }
+article .anh img {
+    width: 100%;
+  }
+article .tieude {
+    font-weight: bold;
+    background-color: #f5f5f5;
+    color: #186BCC;
+    padding: 8px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #186BCC;
+  }
+article .heading {
+    background-color: #f5f5f5;
+    padding: 5px;
+  }
+article .heading .hehe {
+    position: relative;
+    top: -20px;
+    right: -10px;
+  }
+article .tintuc {
+    padding-top: 10px;
+    font-size: 12px;
+  }
+article .tintuc .tin {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: justify;
+  }
+article .tintuc img {
+    padding: 0px 5px;
+    width: 40%;
+  }
+article ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: max-content;
+    background-color: #d4bdbd;
+    min-height: 3080px;
+    position: absolute;
+}
+article ul.sidenav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+   
+article ul.sidenav li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+  
+article ul.sidenav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+
+
+div aside{
+float: left;
+width: 1000px;
+margin-left: 200px;
+}
+.cha{
+    position: relative;
+}
+.cha img{
+    width: 99%;
+    height: 500px;
+}
+.con{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    display: none;
+    width: 99%;
+}
+.cha:hover .con{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.377);
+    color: white;
+}
+.nd1{
+    text-align: justify;
+    width: 100%;
+    height: auto;
+    margin: 10px;
+    float: left;
+}
+section{
+    margin: 5px;
+}
+h2{
+    margin: 5px;
+}
+.nd2{
+    text-align: justify ;
+    width: 48%;
+    height: auto;
+    float: left;
+}
+.nd3{
+    text-align: justify ;
+    width: 48%;
+    height: auto;
+    float: left;
+}
+b{
+    color: rgb(0, 0, 0);
+    margin-left: 20px;
+}
+
+footer {
+    margin-top: 10px;
+    border-top: 2px solid #216ac5;
+    position: relative;
+    float: inline-end;
+    line-height:50px;
+    background-color:lightcyan;
+    clear:both;
+    background-image: url("../img/footer.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  footer > img {
+    padding: 20px;
+    margin-right: 20px;
+    width: 10%;
+  }
+  footer .item-text {
+    margin-top: 25px;
+    font-size: 25px;
+    color: #ffffff;
+  }
+  footer .item-text p {
+    margin-top: 5px;
+  }
+  footer .ht {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+.container {
+  width: 1480px;
+    float: right;
+    margin: 0px 100px;
+    min-height: 1250px;
+    display: flex;
+    /* Hết article*/
+  }
+  .container article {
+    flex-basis: 90%;
+    margin-right: 20px;
+  }
+  .container article .title {
+    margin-top: 10px;
+    display: flex;
+    border-bottom: 1px solid #216ac5;
+    padding-bottom: 5px;
+  }
+  .container article .title .title-left {
+    font-weight: bold;
+  }
+  .container article .title .title-left:hover {
+    text-decoration: underline;
+  }
+  .container article .hoidap {
+    padding-top: 10px;
+    text-align: justify;
+  }
+  .container article .hoidap img {
+    width: 40%;
+    border: 1px solid #6d747d;
+    margin-bottom: 20px;
+    margin-left: 30%;
+  }
+  .container article .hoidap .anhqs {
+    background-color: #6c3;
+    color: #fff;
+    padding: 5px;
+    font-weight: 700;
+    margin: 15px 0;
+    font-size: 15px;
+    color: white;
+  }
+  .container article .item2 {
+    flex-basis: 50%;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 30px;
+  }
+  .container article .item2 .form {
+    padding-top: 10PX;
+  }
+  .container article .item2 .form .form-text {
+    margin-bottom: 20px;
+  }
+  .container article .item2 .form .form-text .form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .container article .item2 .form .form-text .form-control .contact-content {
+    height: auto;
+  }
+  .container article .item2 .form .form-text input:focus,
+  .container article .item2 .form .form-text textarea:focus {
+    box-sizing: border-box;
+    border: 1px solid #e9d8f4;
+    -webkit-transition: 0.2s;
+    transition: 0.5s;
+    outline: none;
+    background-color: yellow;
+  }
+  .container article .btn {
+    float: right;
+    padding: 10px;
+  }
+  .container article .btn .btn-submit {
+    padding: 10px 20px;
+    background-color: #de381d;
+    border-color: #c33119;
+    color: #fff;
+    border-radius: 10px;
+  }
+  .container article .btn .btn-submit:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  .container aside {
+    flex-basis: 30%;
+  }
+  .container aside a {
+    color: #333;
+    font-size: 12px;
+  }
+  .container aside a:hover {
+    color: orangered;
+    text-decoration: underline;
+  }
+  .container aside .anh img {
+    width: 100%;
+  }
+  .container aside .tieude {
+    font-weight: bold;
+    background-color: #f5f5f5;
+    color: #186bcc;
+    padding: 8px 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #186bcc;
+  }
+  .container aside .heading {
+    background-color: #f5f5f5;
+    padding: 5px;
+  }
+  .container aside .heading .hehe {
+    position: relative;
+    top: -20px;
+    right: -10px;
+  }
+  .container aside .tintuc {
+    padding-top: 10px;
+    font-size: 12px;
+  }
+  .container aside .tintuc .tin {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: justify;
+  }
+  .container aside .tintuc img {
+    padding: 0px 5px;
+    width: 40%;
+  }
